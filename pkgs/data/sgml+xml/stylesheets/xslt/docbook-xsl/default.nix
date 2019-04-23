@@ -49,9 +49,8 @@ in {
 
     patches = [(fetchpatch {
       name = "potential-infinite-template-recursion.patch";
-      url = "https://src.fedoraproject.org/cgit/rpms/docbook-style-xsl.git/"
-          + "plain/docbook-style-xsl-non-recursive-string-subst.patch?id=bf9e5d16fd";
-      sha256 = "1pfb468bsj3j879ip0950waih0r1s6rzfbm2p70glbz0g3903p7h";
+      url = "https://src.fedoraproject.org/rpms/docbook-style-xsl/raw/f30/f/docbook-style-xsl-non-recursive-string-subst.patch";
+      sha256 = "090aa62fmhg09sdyrmh5qwh3dqxgzj443d58d697x36jnxy570ys";
       stripLen = "1";
     })];
 
