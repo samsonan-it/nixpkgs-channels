@@ -49,10 +49,8 @@ in {
 
     patches = [(fetchpatch {
       name = "potential-infinite-template-recursion.patch";
-      url = "https://src.fedoraproject.org/cgit/rpms/docbook-style-xsl.git/"
-          + "plain/docbook-style-xsl-non-recursive-string-subst.patch?id=bf9e5d16fd";
-      sha256 = "1pfb468bsj3j879ip0950waih0r1s6rzfbm2p70glbz0g3903p7h";
-      stripLen = "1";
+      url = "https://gitweb.gentoo.org/repo/gentoo.git/plain/app-text/docbook-xsl-stylesheets/files/nonrecursive-string-subst.patch";
+      sha256 = "1x9nihjd53v73ai3dy2cmk5hzq3l28f4617ynzm89yr91lik91r9";
     })];
 
   };
